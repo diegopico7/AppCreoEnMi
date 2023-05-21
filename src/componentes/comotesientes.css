@@ -1,0 +1,9 @@
+.contenedor-cts {
+  width: 80%;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.contenedor-cts h2 {
+  text-align: center;
+}

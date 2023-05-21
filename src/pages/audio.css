@@ -1,0 +1,13 @@
+.contenedor-audios {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/naturaleza1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
