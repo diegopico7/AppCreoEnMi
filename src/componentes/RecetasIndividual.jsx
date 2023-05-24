@@ -1,8 +1,8 @@
 import React from "react";
 import "./recetaindividual.css";
-import comida2 from "../img/comida1.jpg";
-import panqueque from "../img/receta/panqueque2.jpg";
-import { recetario } from "../../data/recetario";
+// import comida2 from "../img/comida1.jpg";
+// import panqueque from "../img/receta/panqueque2.jpg";
+// import { recetario } from "../../data/recetario";
 
 const RecetasIndividual = (props) => {
   return (

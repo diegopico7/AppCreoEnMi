@@ -2,7 +2,7 @@ import React from "react";
 import "./receta.css";
 import RecetasIndividual from "../componentes/RecetasIndividual";
 import Footer from "../componentes/Footer";
-import { recetario } from "../../data/recetario";
+import { recetario } from "../data/recetario";
 
 const Recetas = () => {
   const recetarioList = recetario.map((r) => {

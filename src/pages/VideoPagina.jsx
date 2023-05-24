@@ -11,19 +11,19 @@ const PaginaVideo = () => {
     {
       id: 1,
       title: "Meditación Profunda",
-      src: "/src/img/videos/incienso.mp4",
+      src: "/src/img/incienso.mp4",
       img: "/src/img/meditacion2.jpg",
     },
     {
       id: 2,
       title: "Meditación con lluvia",
-      src: "/src/img/videos/lluvia.mp4",
+      src: "/src/img/lluvia.mp4",
       img: "/src/img/meditacion04.jpg",
     },
     {
       id: 3,
       title: "Meditación con Mar",
-      src: "/src/img/videos/incienso.mp4",
+      src: "/src/img/incienso.mp4",
       img: "/src/img/meditacion3.jpg",
     },
   ];
@@ -34,7 +34,7 @@ const PaginaVideo = () => {
     }
   }, []);
 
-  const handleVideoSelect = (videoSrc) => {
+  const handleVideoSelect = (videoSrc, videoTitle) => {
     setSelectedVideo(videoSrc);
   };
 

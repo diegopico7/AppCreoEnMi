@@ -1,15 +1,14 @@
-// VideoPlayer.js
 import React from "react";
 
 const VideoPlayer = ({ videoSrc }) => {
   return (
     <div className="contenedor-reproductor">
-      <h2>Meditaciones a tu gusto</h2>
+      <h2>Meditaciones</h2>
       <video
         src={videoSrc}
         controls
-        width="400"
-        height="300"
+        width="80%"
+        height="auto"
         className="reproductor"
       />
     </div>

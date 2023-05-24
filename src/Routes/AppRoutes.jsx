@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Recetas from "../pages/Recetas";
 import Audios from "../pages/Audios";
 import Videos from "../pages/Videos";
+import UnMinuto from "../componentes/UnMinuto";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
         <Route path="/recetas" element={<Recetas />} />
         <Route path="/audios" element={<Audios />} />
         <Route path="/videos" element={<Videos />} />
+        <Route path="/unminuto" element={<UnMinuto />} />
       </Routes>
     </Router>
   );
