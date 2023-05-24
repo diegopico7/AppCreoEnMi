@@ -20,7 +20,7 @@ export const Modals = () => {
   const [isOpenModal6, openModal6, closeModal6] = UseModal(false);
 
   return (
-    <div>
+    <div className="contenedor-modales">
       <button onClick={openModal1} className="estado">
         <h4> Ansiosa/o</h4>
       </button>
@@ -78,19 +78,6 @@ export const Modals = () => {
         <p>Hola este es el contenido de mi modal 6</p>
         <img className="img-modales" src={imgModal6} alt="FondoPaisaje" />
       </Modal>
-      {/* {<button onClick={openModal2}>Modal 2</button>} */}
-      {
-        // <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
-        //   <h3>Otro Modal</h3>
-        //   <p>
-        //     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-        //     laboriosam labore et natus adipisci iure fugiat beatae? Repellendus,
-        //     facilis, delectus commodi in laudantium culpa quo, ab accusamus
-        //     cupiditate adipisci corporis!
-        //   </p>
-        //   <img className="img-modales" src={imgModal4} alt="Meditando" />
-        // </Modal>
-      }
     </div>
   );
 };

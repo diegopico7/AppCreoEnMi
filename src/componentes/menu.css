@@ -1,0 +1,47 @@
+/* Estilos CSS para MenuHamburguesa */
+.menu-hamburguesa {
+  position: relative;
+}
+
+.menu-hamburguesa button {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+
+.menu-hamburguesa .menu-lista {
+  position: absolute;
+  bottom: 100%;
+  left: -50px;
+  width: 100px;
+
+  background-color: rgba(0, 0, 0, 0.766);
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  right: 0px;
+  white-space: nowrap;
+}
+
+.menu-hamburguesa .menu-lista li {
+  margin-top: 5px;
+}
+.menu-lista li {
+  width: 200px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.menu-hamburguesa .menu-lista li a {
+  color: #979494;
+  text-decoration: none;
+}

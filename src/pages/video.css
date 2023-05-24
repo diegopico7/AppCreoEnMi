@@ -1,0 +1,44 @@
+.conteiner-video {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/montañasMoradas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-video {
+  max-width: 100px;
+  height: auto;
+}
+
+.contenedor-gral-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.contenedor-reproductor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-coleccion {
+  width: 100%;
+  height: auto;
+  display: flex;
+  color: #fff;
+  text-align: center;
+}

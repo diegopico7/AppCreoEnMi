@@ -3,8 +3,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .receta {
@@ -19,7 +19,7 @@
 }
 
 .contenedor-receta img {
-  width: 50%;
+  width: 40%;
   border-radius: 40%;
 }
 .lista-ingredientes {
@@ -44,4 +44,6 @@
 .preparacion {
   padding: 3px;
   margin: 5px 10px;
+  background-color: rgba(128, 128, 128, 0.628);
+  border-radius: 10px;
 }

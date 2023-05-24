@@ -1,7 +1,7 @@
 .body-inicio {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url("../img/fondoInicio.jpg");
   background-size: cover;
   background-position: center;
@@ -9,22 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-}
-
-.titulo-inicio {
-  width: 300px;
-  position: absolute;
-  color: white;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  font-size: 3.6rem;
+  justify-content: space-between baseline;
 }
 
 .comoTeSientes {
@@ -37,6 +22,7 @@
   border-radius: 15px;
   margin: 10px 10px;
 }
+
 .frase-diaria {
   color: antiquewhite;
   font-weight: 700;
@@ -49,6 +35,8 @@
 
 .meditacion-contenedor {
   display: grid;
+  width: 100%;
+  height: 100%;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 5px;
@@ -65,11 +53,13 @@
   align-self: center;
   color: #fff;
 }
+
 .descripcion-med {
   grid-area: 2 / 1 / 3 / 2;
   padding: 0 10px;
   color: #fff;
 }
+
 .div3 {
   grid-area: 1 / 2 / 3 / 3;
   justify-self: center;

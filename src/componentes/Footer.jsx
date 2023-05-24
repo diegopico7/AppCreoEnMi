@@ -5,6 +5,8 @@ import estirar from "../img/estirar1.jpg";
 import meditar1 from "../img/meditar1.jpg";
 import respirar1 from "../img/respirar.jpg";
 import { Link } from "react-router-dom";
+import MenuHamburguesa from "./Menu";
+import "./menu.css";
 
 const Footer = () => {
   return (
@@ -24,7 +26,7 @@ const Footer = () => {
         <img src={respirar1} alt="respirar" />
       </Link>
 
-      <button>Menu</button>
+      <MenuHamburguesa />
     </section>
   );
 };

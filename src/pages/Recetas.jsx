@@ -18,6 +18,7 @@ const Recetas = () => {
         prepar1={r.prepara2}
         prepar2={r.prepara3}
         prepar3={r.prepara4}
+        imagen={r.img}
       />
     );
   });

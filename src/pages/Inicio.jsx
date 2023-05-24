@@ -8,9 +8,7 @@ import meditacion2 from "../img/meditacion2.jpg";
 const Inicio = () => {
   return (
     <main className="body-inicio">
-      <section>
-        <Titulo />
-      </section>
+      <Titulo />
       <section className="comoTeSientes">
         <ComoTeSientes />
       </section>

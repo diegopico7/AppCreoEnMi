@@ -1,11 +1,18 @@
 import React from "react";
+
+import Footer from "../componentes/Footer";
 import "./video.css";
-import { Modals } from "../componentes/Modals";
+import Titulo from "../componentes/Titulo";
+import PaginaVideo from "./VideoPagina";
 
 const Videos = () => {
   return (
-    <div>
-      <Modals />
+    <div className="conteiner-video">
+      <Titulo />
+
+      <PaginaVideo />
+
+      <Footer />
     </div>
   );
 };

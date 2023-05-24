@@ -1,6 +1,8 @@
 import React from "react";
 import "./recetaindividual.css";
 import comida2 from "../img/comida1.jpg";
+import panqueque from "../img/receta/panqueque2.jpg";
+import { recetario } from "../../data/recetario";
 
 const RecetasIndividual = (props) => {
   return (
@@ -12,10 +14,11 @@ const RecetasIndividual = (props) => {
         {props.title4}
       </h2>
       <article className="receta">
-        <img src={comida2} alt="receta1" />
+        <img src={props.imagen} alt="sa" />
+
         <ul className="lista-ingredientes">
           <li>Ingredientes</li>
-          <li>{props.ingredientes1}</li>
+          <li>{props.ingrediente1}</li>
           <li>{props.ingrediente2}</li>
           <li>{props.ingrediente3}</li>
           <li>{props.ingrediente4}</li>
