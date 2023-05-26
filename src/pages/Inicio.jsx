@@ -3,7 +3,7 @@ import "./Inicio.css";
 import ComoTeSientes from "../componentes/ComoTeSientes";
 import Titulo from "../componentes/Titulo";
 import Footer from "../componentes/Footer";
-import meditacion2 from "../img/meditacion2.jpg";
+import meditacion2 from "../img/felicidad1.jpg";
 import UnMinuto from "../componentes/UnMinuto";
 import { Link } from "react-router-dom";
 

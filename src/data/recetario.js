@@ -8,7 +8,7 @@ export const recetario = [
     producto5: "1/2 de polvo hornear y 1/2 canela en polvo",
     prepara1:
       "Pelar y cortar la manzana en cubitos, mezclar con el resto de los ingredientes y cocinar en un sarten con un poquito de aceite o manteca durante aprox 3 minutos de cada lado. Opcional coco rallado y frutos secos para decorar",
-    img: "/src/img/panqueque2.jpg",
+    img: "src/img/panqueque2.jpg",
   },
   {
     nombre: "Pan de zanahoria 🥕",

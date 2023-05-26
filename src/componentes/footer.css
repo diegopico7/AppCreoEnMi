@@ -1,6 +1,6 @@
 .contenedor-footer {
   width: 100%;
-  height: 47px;
+  height: 70px;
   background: rgba(47, 39, 39, 0.5);
   display: flex;
   justify-content: space-around;
@@ -8,12 +8,12 @@
 }
 
 .contenedor-footer img {
-  width: 45px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
   border-radius: 35px;
 }
 .contenedor-footer button {
-  width: 45px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
   border-radius: 35%;
 }

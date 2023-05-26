@@ -1,6 +1,6 @@
 .contenedor-audios {
   width: 100%;
-  height: auto;
+  height: 100%;
   background-image: url("../img/naturaleza1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -10,4 +10,15 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+}
+
+.titulo-audio {
+  color: rgba(166, 245, 179, 0.818);
+  background: linear-gradient(180deg, #88f799 0%, rgba(62, 252, 30, 0.5) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 3px;
 }

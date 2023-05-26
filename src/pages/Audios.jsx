@@ -3,17 +3,13 @@ import "./audio.css";
 import Titulo from "../componentes/Titulo";
 import AudiosMeditaciones from "../componentes/AudiosMeditaciones";
 import Footer from "../componentes/Footer";
-import Videos from "./Videos";
 
 const Audios = () => {
   return (
     <>
       <main className="contenedor-audios">
         <Titulo />
-        <br />
-        <br />
-        <br />
-        <br />
+        <h1 className="titulo-audio">Relajate y escucha</h1>
         <AudiosMeditaciones />
         <AudiosMeditaciones />
         <AudiosMeditaciones />

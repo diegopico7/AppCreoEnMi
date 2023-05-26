@@ -29,7 +29,7 @@ export const recetario = [
     producto4: "6 cda harina integral o la que prefieras",
     producto5: "verduras",
     prepara3:
-      "Cocinar la lenteja prepara las verduras y condimento a gusto llevar al horno por 1 hora",
+      "Cocinar la lenteja prepara las verduras y condimento a gusto llevar al horno por 1 hora y listo a disfrutar 😉",
     img: "/src/img/receta/receta2.jpg",
   },
   {

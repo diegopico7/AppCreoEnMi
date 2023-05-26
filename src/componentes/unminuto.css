@@ -23,11 +23,14 @@
 
 .card h2 {
   font-size: 2rem;
-  color: darksalmon;
+  color: rgba(233, 150, 122, 0.894);
   font-weight: 700;
 }
 
 .card p {
   font-size: 1.3rem;
   color: darksalmon;
+  background-color: rgba(25, 24, 23, 0.601);
+  border-radius: 15px;
+  padding: 5px;
 }

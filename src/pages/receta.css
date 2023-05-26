@@ -7,6 +7,8 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   gap: 25px;
 }
 
@@ -31,17 +33,15 @@
 }
 
 .titulo1 {
-  width: 300px;
+  width: 100%;
   height: auto;
-  /* background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%); */
   background: -webkit-radial-gradient(rgb(237, 196, 22), rgb(133, 67, 34));
   background: radial-gradient(rgb(237, 196, 22), rgb(133, 67, 34));
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 3.6rem;
-  margin: 0 auto;
   font-family: sans-serif;
   font-family: "Times New Roman";
+  text-align: center;
 }

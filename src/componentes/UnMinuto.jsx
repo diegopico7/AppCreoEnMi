@@ -17,7 +17,9 @@ const UnMinuto = () => {
         <article className="card">
           <h2>Sueños</h2>
           <video src={video1} width="80%" controls></video>
-          <p>Durante el próximo minuto concéntrate en los sueños que tienes</p>
+          <p>
+            ¡Durante el próximo minuto concéntrate en los sueños que tienes!
+          </p>
         </article>
       </section>
       <Footer />
