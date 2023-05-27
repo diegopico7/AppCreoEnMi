@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import receta from "../img/comida1.jpg";
-import estirar from "../img/estirar1.jpg";
+import estirar from "../img/fondofelicidad4.jpg";
 import meditar1 from "../img/meditar1.jpg";
 import respirar1 from "../img/respirar.jpg";
 import { Link } from "react-router-dom";

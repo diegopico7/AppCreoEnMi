@@ -20,21 +20,43 @@
   padding: 1rem;
   min-width: 320px;
   max-width: 480px;
-  min-height: 200px;
+  min-height: 400px;
   max-width: 600px;
   overflow-y: auto;
-  background-color: #fff;
+  background-color: #ffffff69;
+  background-image: url("../img/fondoestado1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .modal-closed {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  font-weight: bold;
 }
 .img-modales {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .contenedor-modales {
   text-align: center;
+}
+
+.modal-container p {
+  color: rgb(26, 24, 20);
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgba(240, 248, 255, 0.257);
+  padding: 5px;
+  margin: 15px;
+  letter-spacing: 1px;
+}
+
+.modal-container h3 {
+  color: rgb(24, 24, 24);
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

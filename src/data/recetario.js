@@ -22,14 +22,14 @@ export const recetario = [
     img: "/src/img/receta2.jpg",
   },
   {
-    nombre: "Hamburguesas de lenteja",
-    producto1: "150gr lenteja ",
-    producto2: " 2 huevos",
-    producto3: "50gr pan rallado",
-    producto4: "6 cda harina integral o la que prefieras",
-    producto5: "verduras",
+    nombre: "🍔Hamburguesas de lenteja y verduras 🍔",
+    producto1: "Para 15 hamb. aprox 1/2k de lentejas ",
+    producto2: " 1 huevo,  cebollas, 1 pimiento,  zanahorias",
+    producto3: "Sal",
+    producto4: "Pan rallado o avena 4 cda",
+    producto5: "Pimienta",
     prepara3:
-      "Cocinar la lenteja prepara las verduras y condimento a gusto llevar al horno por 1 hora",
+      "Remojar las lentejas la noche anterior, lavarlas y cocinarlas hasta que esten bien blanditas. Con un mixer o en procesadora hace un pure, yo le dejo algunos granitos enteros, saltear todas las verduras y mezclar con las lentejas, el huevo los condimentos y el pan rallado. Armar las hamb. y llevar a horno con un poco de aceite vuelta y vuelta por 5 minutos x lado",
     img: "/src/img/receta2.jpg",
   },
   {

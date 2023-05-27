@@ -1,5 +1,6 @@
 import React from "react";
-
+import Youtube from "../componentes/Youtube";
+import YouTubeVid from "../componentes/Youtube";
 const VideoPlayer = ({ videoSrc }) => {
   return (
     <div className="contenedor-reproductor">

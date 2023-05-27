@@ -13,12 +13,16 @@
 }
 
 .titulo-audio {
-  color: rgba(166, 245, 179, 0.818);
-  background: linear-gradient(180deg, #88f799 0%, rgba(62, 252, 30, 0.5) 100%);
+  color: #eaf2ebf4;
+  /* background: linear-gradient(180deg, #e2ebe3 0%, rgba(57, 109, 48, 0.5) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background-clip: text; */
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   word-spacing: 5px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+}
+.subtitulo-audio {
+  text-align: center;
+  color: #eaf2ebf4;
 }
