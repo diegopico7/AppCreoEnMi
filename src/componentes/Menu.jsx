@@ -15,16 +15,16 @@ const MenuHamburguesa = () => {
       {menuVisible && (
         <ul className="menu-lista">
           <li>
-            <Link to="/inicio">Inicio</Link>
+            <Link to="/Inicio">Inicio</Link>
           </li>
           <li>
-            <Link to="/recetas">Recetas</Link>
+            <Link to="/Recetas">Recetas</Link>
           </li>
           <li>
-            <Link to="/videos">Videos</Link>
+            <Link to="/Videos">Videos</Link>
           </li>
           <li>
-            <Link to="/audios">Audios</Link>
+            <Link to="/Donacion">Donación</Link>
           </li>
         </ul>
       )}

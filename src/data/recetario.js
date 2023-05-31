@@ -1,6 +1,6 @@
 export const recetario = [
   {
-    nombre: "Panqueques de Manzana o Pera 🥞",
+    nombre: "🥞Panqueques de Manzana o Pera 🥞",
     producto1: "1 manzana o pera",
     producto2: " 1 huevo",
     producto3: "escencia de vainilla y 1cda miel o endulzante que uses",
@@ -11,7 +11,7 @@ export const recetario = [
     img: "src/img/panqueque2.jpg",
   },
   {
-    nombre: "Pan de zanahoria 🥕",
+    nombre: "🥕Pan de zanahoria 🥕",
     producto1: "2 zanahorias ralladas finitas",
     producto2: " 2 huevos",
     producto3: "6 cda harina integral o la que prefieras",
@@ -19,7 +19,7 @@ export const recetario = [
     producto5: "1cda de bicarbonato de sodio",
     prepara2:
       "Rallar las zanahorias y mezclar con todos los ingredientes hasta formar una pasta. Poner en moldes redondos, podes tirarles semillas de sesamo arriba y mandar al horno aproximado por 10 o 15 minutos. Espera que se enfrien y listo a disfrutar 😉",
-    img: "/src/img/receta2.jpg",
+    img: "/src/img/panzanahoria.jpg",
   },
   {
     nombre: "🍔Hamburguesas de lenteja y verduras 🍔",
@@ -30,17 +30,14 @@ export const recetario = [
     producto5: "Pimienta",
     prepara3:
       "Remojar las lentejas la noche anterior, lavarlas y cocinarlas hasta que esten bien blanditas. Con un mixer o en procesadora hace un pure, yo le dejo algunos granitos enteros, saltear todas las verduras y mezclar con las lentejas, el huevo los condimentos y el pan rallado. Armar las hamb. y llevar a horno con un poco de aceite vuelta y vuelta por 5 minutos x lado",
-    img: "/src/img/receta2.jpg",
+    img: "/src/img/hamburguesa1.jpg",
   },
   {
-    nombre: "Milanesa de berenjena",
-    producto1: "2 berengenas ",
-    producto2: " 3 huevos",
-    producto3: "50gr pan rallado 6 cda harina integral o la que prefieras",
-    producto4: "condimento a gusto",
-    producto5: "Queso ",
+    nombre: "🥜Mantequilla de maní 🥜",
+    producto1: "Maní pelado sin sal ",
+
     prepara4:
-      "Lavar las berenjenas pelarlas y llevarlas al horno 1 hora con queso arriba",
-    img: "/src/img/panqueque2.jpg",
+      "Tostar el mani en sarten u horno 3 min aprox, controlar para que no se quemen si no tomará gusto a quemado. Luego ponemos el maní en procesadora a max velocidad. Parando y removiendo cada tanto. Procesar hasta que quede la consistencia deseada. Conservar en un frasco de vidrio",
+    img: "/src/img/mantequilla.jpg",
   },
 ];

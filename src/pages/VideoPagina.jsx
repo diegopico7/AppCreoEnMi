@@ -17,13 +17,13 @@ const PaginaVideo = () => {
     {
       id: 2,
       title: "Meditación con lluvia",
-      src: "../img/flormeditando2.mp4",
+      src: "../src/img/videocreoenmi1.mp4",
       img: "/src/img/meditacion04.jpg",
     },
     {
       id: 3,
       title: "Meditación con Mar",
-      src: "../src/img//flormeditando2.mp4",
+      src: "../src/img/videocreoenmi.mp4",
       img: "/src/img/meditacion3.jpg",
     },
   ];

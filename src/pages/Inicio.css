@@ -30,6 +30,7 @@
   background-color: rgba(47, 19, 108, 0.478);
   border-radius: 15px;
   margin: 0 10px;
+  padding: 5px;
 }
 
 .imgunminuto {
@@ -43,4 +44,38 @@
 h3 {
   text-align: center;
   color: aliceblue;
+}
+
+.rotacion {
+  background-color: rgba(96, 26, 162, 0.245);
+  border-radius: 15px;
+  position: relative;
+  width: 225px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  transform: 50%, -50%;
+}
+
+.receta-inicio {
+  background-color: rgba(47, 19, 108, 0.478);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+.sub-rec {
+  text-align: center;
+  color: aliceblue;
+}
+
+.cont-otras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.otras-img {
+  width: 60px;
+  border-radius: 50%;
 }

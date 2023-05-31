@@ -32,7 +32,34 @@
   bottom: 10;
   left: 0;
   margin: auto;
-  color: #171b18ec;
+  color: #e6f6eaec;
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+.bienvenido {
+  color: #e6f6eaec;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  margin: 0px auto;
+  white-space: nowrap;
+  font-size: 3rem;
+  z-index: 1;
+  border-right: 4px solid;
+  width: 11ch;
+  animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
